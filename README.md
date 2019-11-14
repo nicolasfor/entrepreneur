@@ -44,3 +44,4 @@ npm run start
 
 
 For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
+Heroku deployment at https://entrepreneur-agile-app.herokuapp.com/
