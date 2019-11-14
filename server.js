@@ -36,7 +36,6 @@ require("./config/passport")(passport);
 
 // Routes
 
-const public = path.join(__dirname, 'client/build/');
 const staticPath = path.join(__dirname, 'client/build/')
 
 app.use(express.static(staticPath))
@@ -45,7 +44,6 @@ app.use(express.static(staticPath))
                 root: staticPath
             })
         })
-app.use('/', express.static(public));     
    
 app.use("/api/users", users);
 
