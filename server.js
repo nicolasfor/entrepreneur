@@ -47,6 +47,6 @@ app.use(express.static(staticPath))
    
 app.use("/api/users", users);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => console.log(`Server up and running on port ${port} !`));
